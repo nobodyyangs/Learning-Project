@@ -31,17 +31,17 @@
 //	return 0;
 //}
 
-int ADD(int x, int y)
-{
-	int z = 0;
-	z = x + y;
-	return z;
-}
-int main()
-{
-	int num1 = 1;
-	int num2 = 2;
-	int sum = ADD(num1, num2);
-	printf("%d\n", sum);
-	return 0;
-}
+//int ADD(int x, int y)
+//{
+//	int z = 0;
+//	z = x + y;
+//	return z;
+//}
+//int main()
+//{
+//	int num1 = 1;
+//	int num2 = 2;
+//	int sum = ADD(num1, num2);
+//	printf("%d\n", sum);
+//	return 0;
+//}
