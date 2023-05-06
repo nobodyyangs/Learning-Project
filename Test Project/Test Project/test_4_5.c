@@ -280,20 +280,20 @@
 //	return 0;
 //}
 
-int main()
-{
-	char input[20] = {0};
-	system("shutdown -s -t 120");
-again:
-	printf("Warning: This Computer will shutdown in 2 min. Please enter: '非非是我儿子' to abort.\n");
-	scanf("%s", input);
-	if (strcmp(input, "非非是我儿子") == 0)
-	{
-		system("shutdown -a");
-	}
-	else
-	{
-		goto again;
-	}
-	return 0;
-}
+//int main()
+//{
+//	char input[20] = {0};
+//	system("shutdown -s -t 120");
+//again:
+//	printf("Warning: This Computer will shutdown in 2 min. Please enter: '非非是我儿子' to abort.\n");
+//	scanf("%s", input);
+//	if (strcmp(input, "非非是我儿子") == 0)
+//	{
+//		system("shutdown -a");
+//	}
+//	else
+//	{
+//		goto again;
+//	}
+//	return 0;
+//}
