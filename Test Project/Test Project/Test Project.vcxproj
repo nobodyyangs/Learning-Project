@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="add_8_5.c" />
     <ClCompile Include="add_24_4.c" />
     <ClCompile Include="test_18_4.c" />
     <ClCompile Include="test_20_4.c" />
@@ -137,6 +138,10 @@
     <ClCompile Include="test_30_4.c" />
     <ClCompile Include="test_4_5.c" />
     <ClCompile Include="test_6_5.c" />
+    <ClCompile Include="test_8_5.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="add_8_5.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

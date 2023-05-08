@@ -45,5 +45,16 @@
     <ClCompile Include="test_6_5.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="test_8_5.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="add_8_5.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="add_8_5.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
