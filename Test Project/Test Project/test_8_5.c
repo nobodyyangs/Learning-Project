@@ -135,11 +135,11 @@
 //	int z = x + y;
 //	return z;
 //}
-#include"add_8_5.h"
-int main()
-{
-	int a = 10;
-	int b = 20;
-	printf("%d\n", Add(a, b));
-	return 0;
-}
+//#include"add_8_5.h"
+//int main()
+//{
+//	int a = 10;
+//	int b = 20;
+//	printf("%d\n", Add(a, b));
+//	return 0;
+//}

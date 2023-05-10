@@ -1,3 +1,6 @@
-#define _CRT_SECURE_NO_WARNINGS 1
-
-int Add(int x, int y);
+//#ifndef __ADD_H__
+//#define __ADD_H__
+//
+//int Add(int x, int y);
+//
+//#endif
