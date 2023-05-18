@@ -3,10 +3,41 @@
 
 void game()
 {
+	char ret = 0;
 	char board[ROW][COL] = { 0 };
 	InitBoard(board, ROW, COL);
 	DisplayBoard(board, ROW, COL);
+	while (1)
+	{
+		PlayerMove(board, ROW, COL);
+		DisplayBoard(board, ROW, COL);
+		ret = WhoWin(board, ROW, COL);
+		if (ret != 'C')
+		{
+			break;
+		}
+		ComputerMove(board, ROW, COL);
+		DisplayBoard(board, ROW, COL);
+		ret = WhoWin(board, ROW, COL);
+		if (ret != 'C')
+		{
+			break;
+		}
+	}
+	if (ret == 'o')
+	{
+		printf("玩家获胜。\n");
+	}
+	else if (ret == 'x')
+	{
+		printf("电脑获胜。\n");
+	}
+	else
+	{
+		printf("平局。\n");
+	}
 }
+
 void menu()
 {
 	printf("**************************\n");
@@ -16,6 +47,7 @@ void menu()
 void test()
 {
 	int input = 0;
+	srand((unsigned int)time(NULL));
 	do
 	{
 		menu();
