@@ -1,2 +1,4 @@
 ﻿  game_21_5.c
+E:\Files\VS Code\Learning-Project\Test_Game_21_5\Test_Game_21_5\game_21_5.c(58,22): warning C4552: ”-“: 未使用表达式结果
+E:\Files\VS Code\Learning-Project\Test_Game_21_5\Test_Game_21_5\game_21_5.c(59): warning C4716: “get_mine_count”: 必须返回一个值
   Test_Game_21_5.vcxproj -> E:\Files\VS Code\Learning-Project\Test_Game_21_5\x64\Debug\Test_Game_21_5.exe

@@ -15,11 +15,14 @@ void game()
 	char show[ROWS][COLS] = { 0 };
 	InitBoard(mine, ROWS, COLS, '0');
 	InitBoard(show, ROWS, COLS, '*');
-	DisplayBoard(mine, ROW, COL);
+	DisplayBoard(show, ROW, COL);
+	SetMine(mine, ROW, COL);
+	FindMine(mine, show, ROW, COL);
 }
 void test()
 {
 	int input = 0;
+	srand((unsigned int)time(NULL));
 	do
 	{
 		menu();
