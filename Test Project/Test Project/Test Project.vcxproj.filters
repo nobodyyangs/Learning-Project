@@ -66,6 +66,9 @@
     <ClCompile Include="test_25_5.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="test_27_5.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="add_8_5.h">

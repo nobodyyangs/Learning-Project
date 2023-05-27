@@ -138,6 +138,7 @@
     <ClCompile Include="test_24_4.c" />
     <ClCompile Include="test_25_5.c" />
     <ClCompile Include="test_26_4.c" />
+    <ClCompile Include="test_27_5.c" />
     <ClCompile Include="test_28_4.c" />
     <ClCompile Include="test_2_5.c" />
     <ClCompile Include="test_30_4.c" />
